@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f4f6f8;
+}
+
+/* ================= AUTH PAGES ================= */
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #ffffff;
+  width: 380px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 10px 14px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  outline: none;
+  transition: 0.2s;
+}
+
+input:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.1);
+}
+
+button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+/* Primary Button */
+button {
+  background: #4f46e5;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* ================= DASHBOARD ================= */
+
+.dashboard {
+  max-width: 600px;
+  margin: 50px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logout button */
+.dashboard-header button {
+  background: #ef4444;
+  padding: 6px 12px;
+  font-size: 13px;
+}
+
+.dashboard-header button:hover {
+  background: #dc2626;
+}
+
+/* Todo input section */
+.dashboard input {
+  margin-right: 10px;
+  width: 70%;
+}
+
+/* Todo List */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 25px;
+}
+
+li {
+  background: #f9fafb;
+  padding: 12px 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.2s;
+}
+
+li:hover {
+  background: #eef2ff;
+}
+
+/* Buttons inside list */
+li button {
+  margin-left: 6px;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+/* Edit button */
+li button:first-child {
+  background: #22c55e;
+}
+
+li button:first-child:hover {
+  background: #16a34a;
+}
+
+/* Delete button */
+li button:last-child {
+  background: #ef4444;
+}
+
+li button:last-child:hover {
+  background: #dc2626;
+}
+
+/* Error message */
+.error {
+  color: red;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
