@@ -26,7 +26,9 @@ A simple and responsive Todo application built using React and Node.js.
 - MongoDB
 
 ## 📂 Project Structure
---- Todos-App/
+
+```
+Todos-App/
 │
 ├── client/                 # React Frontend
 │   ├── public/
@@ -48,6 +50,7 @@ A simple and responsive Todo application built using React and Node.js.
 ├── .gitignore
 └── README.md
 ```
+
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the Repository
