@@ -33,7 +33,7 @@ Todos-App/
 ├── client/                 # React Frontend
 │   ├── public/
 │   ├── src/
-│   │   ├── components/
+│   │   ├── api.js
 │   │   ├── pages/
 │   │   ├── App.jsx
 │   │   └── main.jsx
