@@ -26,6 +26,39 @@ A simple and responsive Todo application built using React and Node.js.
 - MongoDB
 
 ---
+## ⚙️ Installation & Setup
 
-## 📂 Project Structure
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/harinim214/Todos-
+cd todos-app
+```
+
+### 2️⃣ Install Dependencies
+
+Backend:
+```bash
+cd server
+npm install
+```
+
+Frontend:
+```bash
+cd client
+npm install
+```
+
+### 3️⃣ Run the Application
+
+Backend:
+```bash
+npm start
+```
+
+Frontend:
+```bash
+npm run dev
+```
+
 
